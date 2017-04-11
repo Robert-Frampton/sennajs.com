@@ -11314,8 +11314,9 @@ li a:not([class]) {
   display: none; }
 
 .api .entity .entity-name {
-  word-break: break-word;
-  margin-top: 0; }
+  margin-top: 0;
+  max-width: 65%;
+  word-break: break-word; }
 
 .api .entity-name-type, .api .entity-access {
   color: #999; }

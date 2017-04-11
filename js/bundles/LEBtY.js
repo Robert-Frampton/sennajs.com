@@ -2360,8 +2360,8 @@ goog.loadModule(function (exports) {
     var $$temp;
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
-    var dyn0 = opt_data.content;
-    if (typeof dyn0 == 'function') dyn0();else if (dyn0 != null) itext(dyn0);
+    var dyn1 = opt_data.content;
+    if (typeof dyn1 == 'function') dyn1();else if (dyn1 != null) itext(dyn1);
     ie_close('main');
     ie_close('div');
   }
@@ -2472,12 +2472,12 @@ goog.loadModule(function (exports) {
    */
   function $render(opt_data, opt_ignored, opt_ijData) {
     ie_open('div', null, null, 'class', 'main');
-    var param12 = function param12() {
+    var param57 = function param57() {
       $templateAlias2(soy.$$assignDefaults({ elementClasses: 'topbar-docs-main' }, opt_data), null, opt_ijData);
       $templateAlias3({ section: opt_data.site.index.children['docs'] }, null, opt_ijData);
       $guide(opt_data, null, opt_ijData);
     };
-    $templateAlias1(soy.$$assignDefaults({ elementClasses: 'guide', content: param12 }, opt_data), null, opt_ijData);
+    $templateAlias1(soy.$$assignDefaults({ elementClasses: 'guide', content: param57 }, opt_data), null, opt_ijData);
     ie_close('div');
   }
   exports.render = $render;
@@ -2498,8 +2498,8 @@ goog.loadModule(function (exports) {
     ie_open('header', null, null, 'class', 'guide-header');
     ie_open('div', null, null, 'class', 'container-hybrid');
     ie_open('h1', null, null, 'class', 'title');
-    var dyn1 = opt_data.page.title;
-    if (typeof dyn1 == 'function') dyn1();else if (dyn1 != null) itext(dyn1);
+    var dyn2 = opt_data.page.title;
+    if (typeof dyn2 == 'function') dyn2();else if (dyn2 != null) itext(dyn2);
     ie_close('h1');
     ie_close('div');
     ie_close('header');
@@ -2507,8 +2507,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', 'docs-guide row');
     ie_open('div', null, null, 'class', 'docs-content col-xs-16 col-md-9');
     ie_open('div', null, null, 'class', 'guide-content');
-    var dyn2 = opt_data.content;
-    if (typeof dyn2 == 'function') dyn2();else if (dyn2 != null) itext(dyn2);
+    var dyn3 = opt_data.content;
+    if (typeof dyn3 == 'function') dyn3();else if (dyn3 != null) itext(dyn3);
     ie_close('div');
     if (opt_data.site.githubRepo) {
       $contribute(opt_data, null, opt_ijData);
@@ -2659,8 +2659,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
     $templateAlias1(soy.$$assignDefaults({ elementClasses: 'topbar-fixed' }, opt_data), null, opt_ijData);
-    var dyn3 = opt_data.content;
-    if (typeof dyn3 == 'function') dyn3();else if (dyn3 != null) itext(dyn3);
+    var dyn4 = opt_data.content;
+    if (typeof dyn4 == 'function') dyn4();else if (dyn4 != null) itext(dyn4);
     ie_close('main');
     ie_close('div');
   }
@@ -2766,8 +2766,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
     ie_open('div', null, null, 'class', 'docs');
-    var dyn4 = opt_data.content;
-    if (typeof dyn4 == 'function') dyn4();else if (dyn4 != null) itext(dyn4);
+    var dyn5 = opt_data.content;
+    if (typeof dyn5 == 'function') dyn5();else if (dyn5 != null) itext(dyn5);
     ie_close('div');
     ie_close('main');
     ie_close('div');
@@ -2893,8 +2893,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', 'topbar-logo');
     ie_open('a', null, null, 'class', 'topbar-logo-link', 'href', '/');
     ie_open('span', null, null, 'class', 'name');
-    var dyn5 = opt_data.site.title;
-    if (typeof dyn5 == 'function') dyn5();else if (dyn5 != null) itext(dyn5);
+    var dyn6 = opt_data.site.title;
+    if (typeof dyn6 == 'function') dyn6();else if (dyn6 != null) itext(dyn6);
     ie_open('span');
     itext('.js');
     ie_close('span');
@@ -2904,8 +2904,8 @@ goog.loadModule(function (exports) {
     ie_close('span');
     ie_close('a');
     if (opt_data.subheader) {
-      var dyn6 = opt_data.subheader;
-      if (typeof dyn6 == 'function') dyn6();else if (dyn6 != null) itext(dyn6);
+      var dyn7 = opt_data.subheader;
+      if (typeof dyn7 == 'function') dyn7();else if (dyn7 != null) itext(dyn7);
     }
     ie_close('div');
   }
@@ -12086,23 +12086,23 @@ if (goog.DEBUG) {
  * @return {void}
  * @suppress {checkTypes}
  */
-function __deltemplate_s150_d34389eb(opt_data, opt_ignored, opt_ijData) {
+function __deltemplate_s201_d34389eb(opt_data, opt_ignored, opt_ijData) {
   ie_open('a', null, null,
       'class', 'sidebar-link ' + (opt_data.page.active ? 'sidebar-link-selected' : ''),
       'href', opt_data.page.url);
     ie_void('span', null, null,
         'class', 'sidebar-icon icon-16-' + opt_data.page.icon);
     ie_open('span');
-      var dyn13 = opt_data.page.title;
-      if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
+      var dyn15 = opt_data.page.title;
+      if (typeof dyn15 == 'function') dyn15(); else if (dyn15 != null) itext(dyn15);
     ie_close('span');
   ie_close('a');
 }
-exports.__deltemplate_s150_d34389eb = __deltemplate_s150_d34389eb;
+exports.__deltemplate_s201_d34389eb = __deltemplate_s201_d34389eb;
 if (goog.DEBUG) {
-  __deltemplate_s150_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s150_d34389eb';
+  __deltemplate_s201_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s201_d34389eb';
 }
-soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s150_d34389eb);
+soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s201_d34389eb);
 
 exports.render.params = ["section"];
 exports.render.types = {"section":"any"};
@@ -12139,7 +12139,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(Sidebar, templates);
 /* 97 */,
 /* 98 */,
 /* 99 */,
-/* 100 */
+/* 100 */,
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12148,7 +12149,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(Sidebar, templates);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.templates = exports.QZuzK = undefined;
+exports.templates = exports.LEBtY = undefined;
 
 var _metalComponent = __webpack_require__(0);
 
@@ -12170,15 +12171,15 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var templates;
 goog.loadModule(function (exports) {
 
-  // This file was automatically generated from errorHandling.soy.
+  // This file was automatically generated from index.soy.
   // Please don't edit this file by hand.
 
   /**
-   * @fileoverview Templates in namespace QZuzK.
+   * @fileoverview Templates in namespace LEBtY.
    * @public
    */
 
-  goog.module('QZuzK.incrementaldom');
+  goog.module('LEBtY.incrementaldom');
 
   /** @suppress {extraRequire} */
   var soy = goog.require('soy');
@@ -12199,8 +12200,6 @@ goog.loadModule(function (exports) {
   var itext = IncrementalDom.text;
   var iattr = IncrementalDom.attr;
 
-  var $templateAlias2 = _metalSoy2.default.getTemplate('ElectricCode.incrementaldom', 'render');
-
   var $templateAlias1 = _metalSoy2.default.getTemplate('guide.incrementaldom', 'render');
 
   /**
@@ -12211,59 +12210,17 @@ goog.loadModule(function (exports) {
    * @suppress {checkTypes}
    */
   function $render(opt_data, opt_ignored, opt_ijData) {
-    var param276 = function param276() {
-      ie_open('article', null, null, 'id', 'error-handling');
-      ie_open('h2');
-      itext('Error Handling');
-      ie_close('h2');
-      ie_open('p');
-      itext('It\'s important to understand how to handle errors when using Senna.js. The three error handling options in Senna.js are Invalid Status, Request Error, and Timeout.');
-      ie_close('p');
-      ie_open('blockquote');
-      ie_open('p');
-      ie_open('strong');
-      itext('Invalid Status:');
-      ie_close('strong');
-      ie_close('p');
-      ie_open('p');
-      itext('Returns true for an invalid status. Any status code 2xx or 3xx is considered valid.');
-      ie_close('p');
-      ie_close('blockquote');
-      ie_open('blockquote');
-      ie_open('p');
-      ie_open('strong');
-      itext('Request Error:');
-      ie_close('strong');
-      ie_close('p');
-      ie_open('p');
-      itext('Returns true if there was an error with the request.');
-      ie_close('p');
-      ie_close('blockquote');
-      ie_open('blockquote');
-      ie_open('p');
-      ie_open('strong');
-      itext('Timeout:');
-      ie_close('strong');
-      ie_close('p');
-      ie_open('p');
-      itext('Returns true if the request timed out.');
-      ie_close('p');
-      ie_close('blockquote');
-      ie_open('p');
-      itext('With just one simple funciton, you can control how your app handles those errors.');
-      ie_close('p');
-      $templateAlias2({ code: '<script>\n  var app = new senna.App();\n\n  app.on(\'endNavigate\', function(event) {\n    if (event.error) {\n      if (event.error.invalidStatus) {\n        //do something to handle invalid status\n      }\n\n      if (event.error.requestError) {\n        //do something to handle an error with the request\n      }\n\n      if (event.error.timeout) {\n        //do something to handle a timeout\n      }\n\n      if (event.error.statusCode == 404) {\n        //return "Page Not Found" message\n      }\n    }\n  });\n<\/script>', mode: 'text' }, null, opt_ijData);
-      ie_close('article');
+    var param296 = function param296() {
       ie_open('input', null, null, 'type', 'hidden', 'value', opt_data.page.title);
       ie_close('input');
       ie_open('input', null, null, 'type', 'hidden', 'value', opt_data.site.title);
       ie_close('input');
     };
-    $templateAlias1(soy.$$assignDefaults({ content: param276 }, opt_data), null, opt_ijData);
+    $templateAlias1(soy.$$assignDefaults({ content: param296 }, opt_data), null, opt_ijData);
   }
   exports.render = $render;
   if (goog.DEBUG) {
-    $render.soyTemplateName = 'QZuzK.render';
+    $render.soyTemplateName = 'LEBtY.render';
   }
 
   exports.render.params = ["page", "site"];
@@ -12272,26 +12229,25 @@ goog.loadModule(function (exports) {
   return exports;
 });
 
-var QZuzK = function (_Component) {
-  _inherits(QZuzK, _Component);
+var LEBtY = function (_Component) {
+  _inherits(LEBtY, _Component);
 
-  function QZuzK() {
-    _classCallCheck(this, QZuzK);
+  function LEBtY() {
+    _classCallCheck(this, LEBtY);
 
-    return _possibleConstructorReturn(this, (QZuzK.__proto__ || Object.getPrototypeOf(QZuzK)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (LEBtY.__proto__ || Object.getPrototypeOf(LEBtY)).apply(this, arguments));
   }
 
-  return QZuzK;
+  return LEBtY;
 }(_metalComponent2.default);
 
-_metalSoy2.default.register(QZuzK, templates);
-exports.QZuzK = QZuzK;
+_metalSoy2.default.register(LEBtY, templates);
+exports.LEBtY = LEBtY;
 exports.templates = templates;
 exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 101 */,
 /* 102 */,
 /* 103 */,
 /* 104 */,
@@ -12343,9 +12299,9 @@ __webpack_require__(16);
 
 __webpack_require__(17);
 
-var _errorHandlingSoy = __webpack_require__(100);
+var _indexSoy = __webpack_require__(101);
 
-var _errorHandlingSoy2 = _interopRequireDefault(_errorHandlingSoy);
+var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12355,23 +12311,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var QZuzK = function (_Component) {
-  _inherits(QZuzK, _Component);
+var LEBtY = function (_Component) {
+  _inherits(LEBtY, _Component);
 
-  function QZuzK() {
-    _classCallCheck(this, QZuzK);
+  function LEBtY() {
+    _classCallCheck(this, LEBtY);
 
-    return _possibleConstructorReturn(this, (QZuzK.__proto__ || Object.getPrototypeOf(QZuzK)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (LEBtY.__proto__ || Object.getPrototypeOf(LEBtY)).apply(this, arguments));
   }
 
-  return QZuzK;
+  return LEBtY;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(QZuzK, _errorHandlingSoy2.default);
+_metalSoy2.default.register(LEBtY, _indexSoy2.default);
 
-exports.default = QZuzK;
+exports.default = LEBtY;
 
 /***/ })
 ],[119]);

@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([7,17,19],[
+webpackJsonppageComponent([14,17,19],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2360,8 +2360,8 @@ goog.loadModule(function (exports) {
     var $$temp;
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
-    var dyn0 = opt_data.content;
-    if (typeof dyn0 == 'function') dyn0();else if (dyn0 != null) itext(dyn0);
+    var dyn1 = opt_data.content;
+    if (typeof dyn1 == 'function') dyn1();else if (dyn1 != null) itext(dyn1);
     ie_close('main');
     ie_close('div');
   }
@@ -2472,12 +2472,12 @@ goog.loadModule(function (exports) {
    */
   function $render(opt_data, opt_ignored, opt_ijData) {
     ie_open('div', null, null, 'class', 'main');
-    var param12 = function param12() {
+    var param57 = function param57() {
       $templateAlias2(soy.$$assignDefaults({ elementClasses: 'topbar-docs-main' }, opt_data), null, opt_ijData);
       $templateAlias3({ section: opt_data.site.index.children['docs'] }, null, opt_ijData);
       $guide(opt_data, null, opt_ijData);
     };
-    $templateAlias1(soy.$$assignDefaults({ elementClasses: 'guide', content: param12 }, opt_data), null, opt_ijData);
+    $templateAlias1(soy.$$assignDefaults({ elementClasses: 'guide', content: param57 }, opt_data), null, opt_ijData);
     ie_close('div');
   }
   exports.render = $render;
@@ -2498,8 +2498,8 @@ goog.loadModule(function (exports) {
     ie_open('header', null, null, 'class', 'guide-header');
     ie_open('div', null, null, 'class', 'container-hybrid');
     ie_open('h1', null, null, 'class', 'title');
-    var dyn1 = opt_data.page.title;
-    if (typeof dyn1 == 'function') dyn1();else if (dyn1 != null) itext(dyn1);
+    var dyn2 = opt_data.page.title;
+    if (typeof dyn2 == 'function') dyn2();else if (dyn2 != null) itext(dyn2);
     ie_close('h1');
     ie_close('div');
     ie_close('header');
@@ -2507,8 +2507,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', 'docs-guide row');
     ie_open('div', null, null, 'class', 'docs-content col-xs-16 col-md-9');
     ie_open('div', null, null, 'class', 'guide-content');
-    var dyn2 = opt_data.content;
-    if (typeof dyn2 == 'function') dyn2();else if (dyn2 != null) itext(dyn2);
+    var dyn3 = opt_data.content;
+    if (typeof dyn3 == 'function') dyn3();else if (dyn3 != null) itext(dyn3);
     ie_close('div');
     if (opt_data.site.githubRepo) {
       $contribute(opt_data, null, opt_ijData);
@@ -2659,8 +2659,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
     $templateAlias1(soy.$$assignDefaults({ elementClasses: 'topbar-fixed' }, opt_data), null, opt_ijData);
-    var dyn3 = opt_data.content;
-    if (typeof dyn3 == 'function') dyn3();else if (dyn3 != null) itext(dyn3);
+    var dyn4 = opt_data.content;
+    if (typeof dyn4 == 'function') dyn4();else if (dyn4 != null) itext(dyn4);
     ie_close('main');
     ie_close('div');
   }
@@ -2766,8 +2766,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
     ie_open('div', null, null, 'class', 'docs');
-    var dyn4 = opt_data.content;
-    if (typeof dyn4 == 'function') dyn4();else if (dyn4 != null) itext(dyn4);
+    var dyn5 = opt_data.content;
+    if (typeof dyn5 == 'function') dyn5();else if (dyn5 != null) itext(dyn5);
     ie_close('div');
     ie_close('main');
     ie_close('div');
@@ -2893,8 +2893,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', 'topbar-logo');
     ie_open('a', null, null, 'class', 'topbar-logo-link', 'href', '/');
     ie_open('span', null, null, 'class', 'name');
-    var dyn5 = opt_data.site.title;
-    if (typeof dyn5 == 'function') dyn5();else if (dyn5 != null) itext(dyn5);
+    var dyn6 = opt_data.site.title;
+    if (typeof dyn6 == 'function') dyn6();else if (dyn6 != null) itext(dyn6);
     ie_open('span');
     itext('.js');
     ie_close('span');
@@ -2904,8 +2904,8 @@ goog.loadModule(function (exports) {
     ie_close('span');
     ie_close('a');
     if (opt_data.subheader) {
-      var dyn6 = opt_data.subheader;
-      if (typeof dyn6 == 'function') dyn6();else if (dyn6 != null) itext(dyn6);
+      var dyn7 = opt_data.subheader;
+      if (typeof dyn7 == 'function') dyn7();else if (dyn7 != null) itext(dyn7);
     }
     ie_close('div');
   }
@@ -12086,23 +12086,23 @@ if (goog.DEBUG) {
  * @return {void}
  * @suppress {checkTypes}
  */
-function __deltemplate_s150_d34389eb(opt_data, opt_ignored, opt_ijData) {
+function __deltemplate_s201_d34389eb(opt_data, opt_ignored, opt_ijData) {
   ie_open('a', null, null,
       'class', 'sidebar-link ' + (opt_data.page.active ? 'sidebar-link-selected' : ''),
       'href', opt_data.page.url);
     ie_void('span', null, null,
         'class', 'sidebar-icon icon-16-' + opt_data.page.icon);
     ie_open('span');
-      var dyn13 = opt_data.page.title;
-      if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
+      var dyn15 = opt_data.page.title;
+      if (typeof dyn15 == 'function') dyn15(); else if (dyn15 != null) itext(dyn15);
     ie_close('span');
   ie_close('a');
 }
-exports.__deltemplate_s150_d34389eb = __deltemplate_s150_d34389eb;
+exports.__deltemplate_s201_d34389eb = __deltemplate_s201_d34389eb;
 if (goog.DEBUG) {
-  __deltemplate_s150_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s150_d34389eb';
+  __deltemplate_s201_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s201_d34389eb';
 }
-soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s150_d34389eb);
+soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s201_d34389eb);
 
 exports.render.params = ["section"];
 exports.render.types = {"section":"any"};
@@ -12143,15 +12143,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(Sidebar, templates);
 /* 101 */,
 /* 102 */,
 /* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */,
-/* 108 */,
-/* 109 */,
-/* 110 */,
-/* 111 */,
-/* 112 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12160,7 +12152,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(Sidebar, templates);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.templates = exports.HxQWA = undefined;
+exports.templates = exports.PnXnu = undefined;
 
 var _metalComponent = __webpack_require__(0);
 
@@ -12182,15 +12174,15 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var templates;
 goog.loadModule(function (exports) {
 
-  // This file was automatically generated from theBuildingblocks.soy.
+  // This file was automatically generated from trackableResources.soy.
   // Please don't edit this file by hand.
 
   /**
-   * @fileoverview Templates in namespace HxQWA.
+   * @fileoverview Templates in namespace PnXnu.
    * @public
    */
 
-  goog.module('HxQWA.incrementaldom');
+  goog.module('PnXnu.incrementaldom');
 
   /** @suppress {extraRequire} */
   var soy = goog.require('soy');
@@ -12211,6 +12203,8 @@ goog.loadModule(function (exports) {
   var itext = IncrementalDom.text;
   var iattr = IncrementalDom.attr;
 
+  var $templateAlias2 = _metalSoy2.default.getTemplate('ElectricCode.incrementaldom', 'render');
+
   var $templateAlias1 = _metalSoy2.default.getTemplate('guide.incrementaldom', 'render');
 
   /**
@@ -12221,139 +12215,42 @@ goog.loadModule(function (exports) {
    * @suppress {checkTypes}
    */
   function $render(opt_data, opt_ignored, opt_ijData) {
-    var param457 = function param457() {
-      ie_open('article', null, null, 'id', 'App');
+    var param346 = function param346() {
+      ie_open('article', null, null, 'id', 'trackable-resources');
       ie_open('h2');
-      itext('App');
+      itext('Trackable Resources');
       ie_close('h2');
       ie_open('p');
-      itext('Think of this as your canvas. Everything about your site, namely your surfaces and routes, are contained within in this element.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'Surfaces');
-      ie_open('h2');
-      itext('Surfaces');
-      ie_close('h2');
-      ie_open('p');
-      itext('The basic visual building blocks of your page. They are elements like your header, navbar, body, or footer.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'Screen');
-      ie_open('h2');
-      itext('Screen');
-      ie_close('h2');
-      ie_open('p');
-      itext('The specific rendering of all relevant surfaces. Every-time a page is requested, the navigated path will match a respective screen. This matching screen will scan all surfaces and paint the new content for those surfaces. Every screen has a unique url, but does not load as a separate page.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'Route');
-      ie_open('h2');
-      itext('Route');
-      ie_close('h2');
-      ie_open('p');
-      itext('Every app navigation will consist of a route and a correlating screen. The route is the entire process of navigation, from when you click a link to when your app paints the new information on the screen.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('h1');
-      itext('Native Browser Behavior');
-      ie_close('h1');
-      ie_open('article', null, null, 'id', 'seo');
-      ie_open('h6');
-      itext('In order to create a single page application with good perceived latency and good user experience, the SPA engine must handle many aspects of the browser\u2019s native behavior. Here are some of the amazing capabilities of Senna.js.');
-      ie_close('h6');
-      ie_open('h2');
-      itext('SEO & Bookmarkability:');
-      ie_close('h2');
-      ie_open('p');
-      itext('So if the browser is simply gathering more information rather than refreshing to a separate page, how do you make sure that your users can bookmark and share the content they are viewing? With Senna.js, your app will create specific urls that correlate to the information that your users are viewing. This not only makes it seamless for your users, but it also enables search engines to index that same information just like it would if it was a traditional webpage.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'hybrid-rendering');
-      ie_open('h2');
-      itext('Hybrid Rendering:');
-      ie_close('h2');
-      ie_open('p');
-      itext('Ajax + server-side rendering allows you to disable pushState at any time, enabling progressive enhancement. The way you render the server-side does not matter, it can be simple HTML fragments or even template views.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'state-retention');
-      ie_open('h2');
-      itext('State Retention:');
-      ie_close('h2');
-      ie_open('p');
-      itext('When you reload or navigate through the history of the page, Senna will take you right back to the state of the screen that you previously viewed, including the same scroll placement.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'ui-feedback');
-      ie_open('h2');
-      itext('UI Feedback:');
-      ie_close('h2');
-      ie_open('p');
-      itext('If you have large content on your page and it takes time to load, you can give your users feedback so they know the content will be fully loaded soon. Checkout ');
-      ie_open('a', null, null, 'href', '/docs/features/uiFeedback.html');
-      itext('UI Feedback');
-      ie_close('a');
-      itext(' to learn how to enable this feature in your app.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'pending-nav');
-      ie_open('h2');
-      itext('Pending Navigation:');
-      ie_close('h2');
-      ie_open('p');
-      itext('To prevent multiple portions of your site from loading at different speeds, you can block UI rendering until the data is fully loaded so that all the content will display at once. In this situation, UI Feedback is a great tool to make sure your users know the content is coming.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'timeout');
-      ie_open('h2');
-      itext('Timeout Detection:');
-      ie_close('h2');
-      ie_open('p');
-      itext('Senna.js will timeout if the request takes too long to load or if the user navigates to a different link while another request is pending. If an error occurs, Senna is already setup with ');
-      ie_open('a', null, null, 'href', '/docs/features/errorHandling.html');
-      itext('Error Handling');
-      ie_close('a');
-      itext('.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'history-nav');
-      ie_open('h2');
-      itext('History Navigation:');
-      ie_close('h2');
-      ie_open('p');
-      itext('By using History API, you can manipulate the browser history to use the browser\'s back and forward buttons.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'cacheable-screens');
-      ie_open('h2');
-      itext('Cacheable Screens:');
-      ie_close('h2');
-      ie_open('p');
-      itext('Once you load a certain surface, this content is cached in memory and will be retrieved later on without any additional request to the server.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'prm');
-      ie_open('h2');
-      itext('Page Resources Management:');
-      ie_close('h2');
-      ie_open('p');
-      itext('Evaluate scripts and stylesheets from dynamic loaded resources. Additional content loaded using XMLHttpRequest can be appended to the DOM. For security reasons some browsers will not evaluate ');
+      itext('Senna.js provides an easy way to manage external style and script resources on the page. When including resources in the ');
       ie_open('code');
-      itext('<script>');
+      itext('<head>');
       ie_close('code');
-      itext(' tags from the new fragment, so the SPA engine should handle extracting scripts from the content and parsing them, respecting the browser contract for loading scripts.');
+      itext(', they can be annotated with the ');
+      ie_open('code');
+      itext('data-senna-track');
+      ie_close('code');
+      itext(' attribute. This attribute can be set to ');
+      ie_open('code');
+      itext('temporary');
+      ie_close('code');
+      itext(' or ');
+      ie_open('code');
+      itext('permanent');
+      ie_close('code');
+      itext(', which determines whether a resource remains on the page permanently or is removed after navigation;');
       ie_close('p');
+      $templateAlias2({ code: '<link data-senna-track="permanent" href="main.css" rel="stylesheet">\n<script data-senna-track="temporary" src="main.js"><\/script>', mode: 'text' }, null, opt_ijData);
       ie_close('article');
       ie_open('input', null, null, 'type', 'hidden', 'value', opt_data.page.title);
       ie_close('input');
       ie_open('input', null, null, 'type', 'hidden', 'value', opt_data.site.title);
       ie_close('input');
     };
-    $templateAlias1(soy.$$assignDefaults({ content: param457 }, opt_data), null, opt_ijData);
+    $templateAlias1(soy.$$assignDefaults({ content: param346 }, opt_data), null, opt_ijData);
   }
   exports.render = $render;
   if (goog.DEBUG) {
-    $render.soyTemplateName = 'HxQWA.render';
+    $render.soyTemplateName = 'PnXnu.render';
   }
 
   exports.render.params = ["page", "site"];
@@ -12362,25 +12259,33 @@ goog.loadModule(function (exports) {
   return exports;
 });
 
-var HxQWA = function (_Component) {
-  _inherits(HxQWA, _Component);
+var PnXnu = function (_Component) {
+  _inherits(PnXnu, _Component);
 
-  function HxQWA() {
-    _classCallCheck(this, HxQWA);
+  function PnXnu() {
+    _classCallCheck(this, PnXnu);
 
-    return _possibleConstructorReturn(this, (HxQWA.__proto__ || Object.getPrototypeOf(HxQWA)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (PnXnu.__proto__ || Object.getPrototypeOf(PnXnu)).apply(this, arguments));
   }
 
-  return HxQWA;
+  return PnXnu;
 }(_metalComponent2.default);
 
-_metalSoy2.default.register(HxQWA, templates);
-exports.HxQWA = HxQWA;
+_metalSoy2.default.register(PnXnu, templates);
+exports.PnXnu = PnXnu;
 exports.templates = templates;
 exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */,
+/* 109 */,
+/* 110 */,
+/* 111 */,
+/* 112 */,
 /* 113 */,
 /* 114 */,
 /* 115 */,
@@ -12388,14 +12293,7 @@ exports.default = templates;
 /* 117 */,
 /* 118 */,
 /* 119 */,
-/* 120 */,
-/* 121 */,
-/* 122 */,
-/* 123 */,
-/* 124 */,
-/* 125 */,
-/* 126 */,
-/* 127 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12429,9 +12327,9 @@ __webpack_require__(16);
 
 __webpack_require__(17);
 
-var _theBuildingblocksSoy = __webpack_require__(112);
+var _trackableResourcesSoy = __webpack_require__(104);
 
-var _theBuildingblocksSoy2 = _interopRequireDefault(_theBuildingblocksSoy);
+var _trackableResourcesSoy2 = _interopRequireDefault(_trackableResourcesSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12441,23 +12339,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var HxQWA = function (_Component) {
-  _inherits(HxQWA, _Component);
+var PnXnu = function (_Component) {
+  _inherits(PnXnu, _Component);
 
-  function HxQWA() {
-    _classCallCheck(this, HxQWA);
+  function PnXnu() {
+    _classCallCheck(this, PnXnu);
 
-    return _possibleConstructorReturn(this, (HxQWA.__proto__ || Object.getPrototypeOf(HxQWA)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (PnXnu.__proto__ || Object.getPrototypeOf(PnXnu)).apply(this, arguments));
   }
 
-  return HxQWA;
+  return PnXnu;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(HxQWA, _theBuildingblocksSoy2.default);
+_metalSoy2.default.register(PnXnu, _trackableResourcesSoy2.default);
 
-exports.default = HxQWA;
+exports.default = PnXnu;
 
 /***/ })
-],[127]);
+],[120]);

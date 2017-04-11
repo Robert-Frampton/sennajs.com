@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([4,17,19],[
+webpackJsonppageComponent([7,17,19],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2360,8 +2360,8 @@ goog.loadModule(function (exports) {
     var $$temp;
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
-    var dyn0 = opt_data.content;
-    if (typeof dyn0 == 'function') dyn0();else if (dyn0 != null) itext(dyn0);
+    var dyn1 = opt_data.content;
+    if (typeof dyn1 == 'function') dyn1();else if (dyn1 != null) itext(dyn1);
     ie_close('main');
     ie_close('div');
   }
@@ -2472,12 +2472,12 @@ goog.loadModule(function (exports) {
    */
   function $render(opt_data, opt_ignored, opt_ijData) {
     ie_open('div', null, null, 'class', 'main');
-    var param12 = function param12() {
+    var param57 = function param57() {
       $templateAlias2(soy.$$assignDefaults({ elementClasses: 'topbar-docs-main' }, opt_data), null, opt_ijData);
       $templateAlias3({ section: opt_data.site.index.children['docs'] }, null, opt_ijData);
       $guide(opt_data, null, opt_ijData);
     };
-    $templateAlias1(soy.$$assignDefaults({ elementClasses: 'guide', content: param12 }, opt_data), null, opt_ijData);
+    $templateAlias1(soy.$$assignDefaults({ elementClasses: 'guide', content: param57 }, opt_data), null, opt_ijData);
     ie_close('div');
   }
   exports.render = $render;
@@ -2498,8 +2498,8 @@ goog.loadModule(function (exports) {
     ie_open('header', null, null, 'class', 'guide-header');
     ie_open('div', null, null, 'class', 'container-hybrid');
     ie_open('h1', null, null, 'class', 'title');
-    var dyn1 = opt_data.page.title;
-    if (typeof dyn1 == 'function') dyn1();else if (dyn1 != null) itext(dyn1);
+    var dyn2 = opt_data.page.title;
+    if (typeof dyn2 == 'function') dyn2();else if (dyn2 != null) itext(dyn2);
     ie_close('h1');
     ie_close('div');
     ie_close('header');
@@ -2507,8 +2507,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', 'docs-guide row');
     ie_open('div', null, null, 'class', 'docs-content col-xs-16 col-md-9');
     ie_open('div', null, null, 'class', 'guide-content');
-    var dyn2 = opt_data.content;
-    if (typeof dyn2 == 'function') dyn2();else if (dyn2 != null) itext(dyn2);
+    var dyn3 = opt_data.content;
+    if (typeof dyn3 == 'function') dyn3();else if (dyn3 != null) itext(dyn3);
     ie_close('div');
     if (opt_data.site.githubRepo) {
       $contribute(opt_data, null, opt_ijData);
@@ -2659,8 +2659,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
     $templateAlias1(soy.$$assignDefaults({ elementClasses: 'topbar-fixed' }, opt_data), null, opt_ijData);
-    var dyn3 = opt_data.content;
-    if (typeof dyn3 == 'function') dyn3();else if (dyn3 != null) itext(dyn3);
+    var dyn4 = opt_data.content;
+    if (typeof dyn4 == 'function') dyn4();else if (dyn4 != null) itext(dyn4);
     ie_close('main');
     ie_close('div');
   }
@@ -2766,8 +2766,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
     ie_open('div', null, null, 'class', 'docs');
-    var dyn4 = opt_data.content;
-    if (typeof dyn4 == 'function') dyn4();else if (dyn4 != null) itext(dyn4);
+    var dyn5 = opt_data.content;
+    if (typeof dyn5 == 'function') dyn5();else if (dyn5 != null) itext(dyn5);
     ie_close('div');
     ie_close('main');
     ie_close('div');
@@ -2893,8 +2893,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', 'topbar-logo');
     ie_open('a', null, null, 'class', 'topbar-logo-link', 'href', '/');
     ie_open('span', null, null, 'class', 'name');
-    var dyn5 = opt_data.site.title;
-    if (typeof dyn5 == 'function') dyn5();else if (dyn5 != null) itext(dyn5);
+    var dyn6 = opt_data.site.title;
+    if (typeof dyn6 == 'function') dyn6();else if (dyn6 != null) itext(dyn6);
     ie_open('span');
     itext('.js');
     ie_close('span');
@@ -2904,8 +2904,8 @@ goog.loadModule(function (exports) {
     ie_close('span');
     ie_close('a');
     if (opt_data.subheader) {
-      var dyn6 = opt_data.subheader;
-      if (typeof dyn6 == 'function') dyn6();else if (dyn6 != null) itext(dyn6);
+      var dyn7 = opt_data.subheader;
+      if (typeof dyn7 == 'function') dyn7();else if (dyn7 != null) itext(dyn7);
     }
     ie_close('div');
   }
@@ -12086,23 +12086,23 @@ if (goog.DEBUG) {
  * @return {void}
  * @suppress {checkTypes}
  */
-function __deltemplate_s150_d34389eb(opt_data, opt_ignored, opt_ijData) {
+function __deltemplate_s201_d34389eb(opt_data, opt_ignored, opt_ijData) {
   ie_open('a', null, null,
       'class', 'sidebar-link ' + (opt_data.page.active ? 'sidebar-link-selected' : ''),
       'href', opt_data.page.url);
     ie_void('span', null, null,
         'class', 'sidebar-icon icon-16-' + opt_data.page.icon);
     ie_open('span');
-      var dyn13 = opt_data.page.title;
-      if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
+      var dyn15 = opt_data.page.title;
+      if (typeof dyn15 == 'function') dyn15(); else if (dyn15 != null) itext(dyn15);
     ie_close('span');
   ie_close('a');
 }
-exports.__deltemplate_s150_d34389eb = __deltemplate_s150_d34389eb;
+exports.__deltemplate_s201_d34389eb = __deltemplate_s201_d34389eb;
 if (goog.DEBUG) {
-  __deltemplate_s150_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s150_d34389eb';
+  __deltemplate_s201_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s201_d34389eb';
 }
-soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s150_d34389eb);
+soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s201_d34389eb);
 
 exports.render.params = ["section"];
 exports.render.types = {"section":"any"};
@@ -12148,7 +12148,9 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(Sidebar, templates);
 /* 106 */,
 /* 107 */,
 /* 108 */,
-/* 109 */
+/* 109 */,
+/* 110 */,
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12157,7 +12159,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(Sidebar, templates);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.templates = exports.YKMCm = undefined;
+exports.templates = exports.IeBpm = undefined;
 
 var _metalComponent = __webpack_require__(0);
 
@@ -12179,15 +12181,15 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var templates;
 goog.loadModule(function (exports) {
 
-  // This file was automatically generated from gettingStarted.soy.
+  // This file was automatically generated from index.soy.
   // Please don't edit this file by hand.
 
   /**
-   * @fileoverview Templates in namespace YKMCm.
+   * @fileoverview Templates in namespace IeBpm.
    * @public
    */
 
-  goog.module('YKMCm.incrementaldom');
+  goog.module('IeBpm.incrementaldom');
 
   /** @suppress {extraRequire} */
   var soy = goog.require('soy');
@@ -12208,8 +12210,6 @@ goog.loadModule(function (exports) {
   var itext = IncrementalDom.text;
   var iattr = IncrementalDom.attr;
 
-  var $templateAlias2 = _metalSoy2.default.getTemplate('ElectricCode.incrementaldom', 'render');
-
   var $templateAlias1 = _metalSoy2.default.getTemplate('guide.incrementaldom', 'render');
 
   /**
@@ -12220,100 +12220,17 @@ goog.loadModule(function (exports) {
    * @suppress {checkTypes}
    */
   function $render(opt_data, opt_ignored, opt_ijData) {
-    var param415 = function param415() {
-      ie_open('article', null, null, 'id', 'getting-the-project');
-      ie_open('h2');
-      itext('Getting the Project');
-      ie_close('h2');
-      ie_open('p');
-      itext('To get started, ');
-      ie_open('a', null, null, 'href', 'https://github.com/liferay/senna.js/archive/master.zip');
-      itext('download the project');
-      ie_close('a');
-      itext('. This project includes an initial version of the project plus all of the Senna.js examples (source code dependencies that will help you get started).');
-      ie_close('p');
-      ie_open('p');
-      itext('Unzip the project somewhere on your local drive. While you\'re working, you\'ll need a basic HTTP server to serve your pages because Senna will not be able to fully run if you simply open the files of your app in a browser. If you already have a local server ready to run, then skip to the ');
-      ie_open('a', null, null, 'href', '#start-using');
-      itext('Start using Senna.js in your app');
-      ie_close('a');
-      itext('.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'http-server');
-      ie_open('h2');
-      itext('Setting up a local server');
-      ie_close('h2');
-      ie_open('p');
-      itext('If you don\'t already have a server, ');
-      ie_open('a', null, null, 'href', 'https://www.npmjs.com/package/http-server', 'target', '_blank');
-      itext('http-server');
-      ie_close('a');
-      itext(' is a great solution. The easiest way to install ');
-      ie_open('code');
-      itext('http-server');
-      ie_close('code');
-      itext(' is via npm by running the following command in the command line.');
-      ie_close('p');
-      $templateAlias2({ code: 'npm install http-server -g', mode: 'text' }, null, opt_ijData);
-      ie_open('p');
-      itext('This will install ');
-      ie_open('code');
-      itext('http-server');
-      ie_close('code');
-      itext('. To run your local server, go to the directory that contains your app and run:');
-      ie_close('p');
-      $templateAlias2({ code: 'http-server', mode: 'text' }, null, opt_ijData);
-      ie_open('p');
-      itext('Your app is now live at ');
-      ie_open('a', null, null, 'href', 'http://localhost:8080', 'target', '_blank');
-      itext('http://localhost:8080');
-      ie_close('a');
-      itext('.');
-      ie_close('p');
-      ie_close('article');
-      ie_open('article', null, null, 'id', 'start-using');
-      ie_open('h2');
-      itext('Start using Senna.js in your app');
-      ie_close('h2');
-      ie_open('p');
-      itext('Setting up Senna.js is as easy as linking Senna.js to your document and adding ');
-      ie_open('code');
-      itext('data-senna');
-      ie_close('code');
-      itext(' and ');
-      ie_open('code');
-      itext('data-senna-surface');
-      ie_close('code');
-      itext(' as attributes to your ');
-      ie_open('code');
-      itext('<body>');
-      ie_close('code');
-      itext(' element.');
-      ie_close('p');
-      $templateAlias2({ code: '<!doctype html>\n<html>\n<head>\n  <meta charset="UTF-8">\n  <title>Turbolinks</title>\n  <link rel="shortcut icon" href="http://sennajs.com/images/favicon.ico">\n  <!-- Link Senna to document -->\n  <script src="../../build/globals/senna-debug.js"><\/script>\n</head>\n  <!-- Add Senna attributes -->\n<body data-senna data-senna-surface>\n  <!-- Senna surface -->\n    <a href="/pages/page1.html">Page 1</a>\n    <a href="/pages/page2.html">Page 2</a>\n  <!-- End of Senna surface -->\n</body>\n</html>', mode: 'text' }, null, opt_ijData);
-      ie_open('p');
-      itext('Now your page is already faster! By adding ');
-      ie_open('code');
-      itext('data-senna');
-      ie_close('code');
-      itext(' and ');
-      ie_open('code');
-      itext('data-senna-surface');
-      ie_close('code');
-      itext(', we are telling the browser to replace just the body on each navigation and keep the rest of the resources instead of completly reloading a new page.');
-      ie_close('p');
-      ie_close('article');
+    var param454 = function param454() {
       ie_open('input', null, null, 'type', 'hidden', 'value', opt_data.page.title);
       ie_close('input');
       ie_open('input', null, null, 'type', 'hidden', 'value', opt_data.site.title);
       ie_close('input');
     };
-    $templateAlias1(soy.$$assignDefaults({ content: param415 }, opt_data), null, opt_ijData);
+    $templateAlias1(soy.$$assignDefaults({ content: param454 }, opt_data), null, opt_ijData);
   }
   exports.render = $render;
   if (goog.DEBUG) {
-    $render.soyTemplateName = 'YKMCm.render';
+    $render.soyTemplateName = 'IeBpm.render';
   }
 
   exports.render.params = ["page", "site"];
@@ -12322,27 +12239,25 @@ goog.loadModule(function (exports) {
   return exports;
 });
 
-var YKMCm = function (_Component) {
-  _inherits(YKMCm, _Component);
+var IeBpm = function (_Component) {
+  _inherits(IeBpm, _Component);
 
-  function YKMCm() {
-    _classCallCheck(this, YKMCm);
+  function IeBpm() {
+    _classCallCheck(this, IeBpm);
 
-    return _possibleConstructorReturn(this, (YKMCm.__proto__ || Object.getPrototypeOf(YKMCm)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (IeBpm.__proto__ || Object.getPrototypeOf(IeBpm)).apply(this, arguments));
   }
 
-  return YKMCm;
+  return IeBpm;
 }(_metalComponent2.default);
 
-_metalSoy2.default.register(YKMCm, templates);
-exports.YKMCm = YKMCm;
+_metalSoy2.default.register(IeBpm, templates);
+exports.IeBpm = IeBpm;
 exports.templates = templates;
 exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 110 */,
-/* 111 */,
 /* 112 */,
 /* 113 */,
 /* 114 */,
@@ -12358,10 +12273,7 @@ exports.default = templates;
 /* 124 */,
 /* 125 */,
 /* 126 */,
-/* 127 */,
-/* 128 */,
-/* 129 */,
-/* 130 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12395,9 +12307,9 @@ __webpack_require__(16);
 
 __webpack_require__(17);
 
-var _gettingStartedSoy = __webpack_require__(109);
+var _indexSoy = __webpack_require__(111);
 
-var _gettingStartedSoy2 = _interopRequireDefault(_gettingStartedSoy);
+var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12407,23 +12319,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var YKMCm = function (_Component) {
-  _inherits(YKMCm, _Component);
+var IeBpm = function (_Component) {
+  _inherits(IeBpm, _Component);
 
-  function YKMCm() {
-    _classCallCheck(this, YKMCm);
+  function IeBpm() {
+    _classCallCheck(this, IeBpm);
 
-    return _possibleConstructorReturn(this, (YKMCm.__proto__ || Object.getPrototypeOf(YKMCm)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (IeBpm.__proto__ || Object.getPrototypeOf(IeBpm)).apply(this, arguments));
   }
 
-  return YKMCm;
+  return IeBpm;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(YKMCm, _gettingStartedSoy2.default);
+_metalSoy2.default.register(IeBpm, _indexSoy2.default);
 
-exports.default = YKMCm;
+exports.default = IeBpm;
 
 /***/ })
-],[130]);
+],[127]);

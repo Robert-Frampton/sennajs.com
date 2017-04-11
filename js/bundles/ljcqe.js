@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([11,17,19],[
+webpackJsonppageComponent([5,17,19],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2360,8 +2360,8 @@ goog.loadModule(function (exports) {
     var $$temp;
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
-    var dyn0 = opt_data.content;
-    if (typeof dyn0 == 'function') dyn0();else if (dyn0 != null) itext(dyn0);
+    var dyn1 = opt_data.content;
+    if (typeof dyn1 == 'function') dyn1();else if (dyn1 != null) itext(dyn1);
     ie_close('main');
     ie_close('div');
   }
@@ -2472,12 +2472,12 @@ goog.loadModule(function (exports) {
    */
   function $render(opt_data, opt_ignored, opt_ijData) {
     ie_open('div', null, null, 'class', 'main');
-    var param12 = function param12() {
+    var param57 = function param57() {
       $templateAlias2(soy.$$assignDefaults({ elementClasses: 'topbar-docs-main' }, opt_data), null, opt_ijData);
       $templateAlias3({ section: opt_data.site.index.children['docs'] }, null, opt_ijData);
       $guide(opt_data, null, opt_ijData);
     };
-    $templateAlias1(soy.$$assignDefaults({ elementClasses: 'guide', content: param12 }, opt_data), null, opt_ijData);
+    $templateAlias1(soy.$$assignDefaults({ elementClasses: 'guide', content: param57 }, opt_data), null, opt_ijData);
     ie_close('div');
   }
   exports.render = $render;
@@ -2498,8 +2498,8 @@ goog.loadModule(function (exports) {
     ie_open('header', null, null, 'class', 'guide-header');
     ie_open('div', null, null, 'class', 'container-hybrid');
     ie_open('h1', null, null, 'class', 'title');
-    var dyn1 = opt_data.page.title;
-    if (typeof dyn1 == 'function') dyn1();else if (dyn1 != null) itext(dyn1);
+    var dyn2 = opt_data.page.title;
+    if (typeof dyn2 == 'function') dyn2();else if (dyn2 != null) itext(dyn2);
     ie_close('h1');
     ie_close('div');
     ie_close('header');
@@ -2507,8 +2507,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', 'docs-guide row');
     ie_open('div', null, null, 'class', 'docs-content col-xs-16 col-md-9');
     ie_open('div', null, null, 'class', 'guide-content');
-    var dyn2 = opt_data.content;
-    if (typeof dyn2 == 'function') dyn2();else if (dyn2 != null) itext(dyn2);
+    var dyn3 = opt_data.content;
+    if (typeof dyn3 == 'function') dyn3();else if (dyn3 != null) itext(dyn3);
     ie_close('div');
     if (opt_data.site.githubRepo) {
       $contribute(opt_data, null, opt_ijData);
@@ -2659,8 +2659,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
     $templateAlias1(soy.$$assignDefaults({ elementClasses: 'topbar-fixed' }, opt_data), null, opt_ijData);
-    var dyn3 = opt_data.content;
-    if (typeof dyn3 == 'function') dyn3();else if (dyn3 != null) itext(dyn3);
+    var dyn4 = opt_data.content;
+    if (typeof dyn4 == 'function') dyn4();else if (dyn4 != null) itext(dyn4);
     ie_close('main');
     ie_close('div');
   }
@@ -2766,8 +2766,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null, 'class', 'content');
     ie_open('div', null, null, 'class', 'docs');
-    var dyn4 = opt_data.content;
-    if (typeof dyn4 == 'function') dyn4();else if (dyn4 != null) itext(dyn4);
+    var dyn5 = opt_data.content;
+    if (typeof dyn5 == 'function') dyn5();else if (dyn5 != null) itext(dyn5);
     ie_close('div');
     ie_close('main');
     ie_close('div');
@@ -2893,8 +2893,8 @@ goog.loadModule(function (exports) {
     ie_open('div', null, null, 'class', 'topbar-logo');
     ie_open('a', null, null, 'class', 'topbar-logo-link', 'href', '/');
     ie_open('span', null, null, 'class', 'name');
-    var dyn5 = opt_data.site.title;
-    if (typeof dyn5 == 'function') dyn5();else if (dyn5 != null) itext(dyn5);
+    var dyn6 = opt_data.site.title;
+    if (typeof dyn6 == 'function') dyn6();else if (dyn6 != null) itext(dyn6);
     ie_open('span');
     itext('.js');
     ie_close('span');
@@ -2904,8 +2904,8 @@ goog.loadModule(function (exports) {
     ie_close('span');
     ie_close('a');
     if (opt_data.subheader) {
-      var dyn6 = opt_data.subheader;
-      if (typeof dyn6 == 'function') dyn6();else if (dyn6 != null) itext(dyn6);
+      var dyn7 = opt_data.subheader;
+      if (typeof dyn7 == 'function') dyn7();else if (dyn7 != null) itext(dyn7);
     }
     ie_close('div');
   }
@@ -12086,23 +12086,23 @@ if (goog.DEBUG) {
  * @return {void}
  * @suppress {checkTypes}
  */
-function __deltemplate_s150_d34389eb(opt_data, opt_ignored, opt_ijData) {
+function __deltemplate_s201_d34389eb(opt_data, opt_ignored, opt_ijData) {
   ie_open('a', null, null,
       'class', 'sidebar-link ' + (opt_data.page.active ? 'sidebar-link-selected' : ''),
       'href', opt_data.page.url);
     ie_void('span', null, null,
         'class', 'sidebar-icon icon-16-' + opt_data.page.icon);
     ie_open('span');
-      var dyn13 = opt_data.page.title;
-      if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
+      var dyn15 = opt_data.page.title;
+      if (typeof dyn15 == 'function') dyn15(); else if (dyn15 != null) itext(dyn15);
     ie_close('span');
   ie_close('a');
 }
-exports.__deltemplate_s150_d34389eb = __deltemplate_s150_d34389eb;
+exports.__deltemplate_s201_d34389eb = __deltemplate_s201_d34389eb;
 if (goog.DEBUG) {
-  __deltemplate_s150_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s150_d34389eb';
+  __deltemplate_s201_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s201_d34389eb';
 }
-soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s150_d34389eb);
+soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s201_d34389eb);
 
 exports.render.params = ["section"];
 exports.render.types = {"section":"any"};
@@ -12144,7 +12144,12 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(Sidebar, templates);
 /* 102 */,
 /* 103 */,
 /* 104 */,
-/* 105 */
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */,
+/* 109 */,
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12153,7 +12158,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(Sidebar, templates);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.templates = exports.cmgPg = undefined;
+exports.templates = exports.ljcqe = undefined;
 
 var _metalComponent = __webpack_require__(0);
 
@@ -12175,15 +12180,15 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var templates;
 goog.loadModule(function (exports) {
 
-  // This file was automatically generated from uiFeedback.soy.
+  // This file was automatically generated from howdoesitwork.soy.
   // Please don't edit this file by hand.
 
   /**
-   * @fileoverview Templates in namespace cmgPg.
+   * @fileoverview Templates in namespace ljcqe.
    * @public
    */
 
-  goog.module('cmgPg.incrementaldom');
+  goog.module('ljcqe.incrementaldom');
 
   /** @suppress {extraRequire} */
   var soy = goog.require('soy');
@@ -12204,8 +12209,6 @@ goog.loadModule(function (exports) {
   var itext = IncrementalDom.text;
   var iattr = IncrementalDom.attr;
 
-  var $templateAlias2 = _metalSoy2.default.getTemplate('ElectricCode.incrementaldom', 'render');
-
   var $templateAlias1 = _metalSoy2.default.getTemplate('guide.incrementaldom', 'render');
 
   /**
@@ -12216,50 +12219,61 @@ goog.loadModule(function (exports) {
    * @suppress {checkTypes}
    */
   function $render(opt_data, opt_ignored, opt_ijData) {
-    var param354 = function param354() {
-      ie_open('article', null, null, 'id', 'default-ui-feedback');
-      ie_open('h6');
-      itext('If you have large content on your page and it takes time to load, you can give your users feedback so they know the content is coming.');
-      ie_close('h6');
+    var param445 = function param445() {
+      ie_open('article', null, null, 'id', 'step1');
       ie_open('h2');
-      itext('1. Add UI Feedback');
+      itext('1. Initial page load');
       ie_close('h2');
       ie_open('p');
-      itext('Senna comes with working UI feedback straight out of the box. All you have to do is add ');
-      ie_open('code');
-      itext('<div class="senn-loading-bar"></div>');
-      ie_close('code');
-      itext(' to the top of your ');
-      ie_open('code');
-      itext('<body>');
-      ie_close('code');
-      itext('.');
+      itext('When using Senna.js, your app will load all the background content, like css and script files, on the initial page load. They will be cached and used to speed up future navigation.');
       ie_close('p');
-      $templateAlias2({ code: '<!doctype html>\n<html>\n  <head>\n    <meta charset="UTF-8">\n    <title>UI Feedback</title>\n    <link rel="shortcut icon" href="http://sennajs.com/images/favicon.ico">\n    <script src="../../build/globals/senna-debug.js"><\/script>\n  </head>\n  <body data-senna data-senna-surface>\n    <!-- Add Senna UI Feedback -->\n    <div class="senn-loading-bar"></div>\n    <!-- Body content -->\n  </body>\n</html>', mode: 'text' }, null, opt_ijData);
       ie_close('article');
-      ie_open('article', null, null, 'id', 'customize-feedback');
+      ie_open('article', null, null, 'id', 'step2');
       ie_open('h2');
-      itext('2. Customize using CSS');
+      itext('2. User clicks link to another page');
       ie_close('h2');
       ie_open('p');
-      itext('Now that you have added the default UI Feedback, you can edit the style of the animation inside of ');
-      ie_open('code');
-      itext('senna/src/senna.css');
-      ie_close('code');
+      itext('When the user clicks a link to another page of your app, Senna.js begins to work its magic, first by populating a new URL even though the page did not fully reload. Everything feels normal to your user because Senna.js supports the ');
+      ie_open('a', null, null, 'href', '/docs/intro/capabilities.html');
+      itext('native browser capabilities');
+      ie_close('a');
       itext('.');
       ie_close('p');
-      $templateAlias2({ code: '.senna-loading .senna-loading-bar {\n  animation: shift-rightwards 1s ease-in-out infinite;\n  animation-delay: .4s;\n  display: block;\n}\n\n.senna-loading-bar {\n  transform: translateX(100%);\n\n  /* Change color of feedback bar */\n  background: #2fa4f5;\n\n  display: none;\n  height: 2px;\n  left: 0;\n  position: fixed;\n  right: 0;\n  top: 0;\n  z-index: 10000;\n}', mode: 'text' }, null, opt_ijData);
+      ie_close('article');
+      ie_open('article', null, null, 'id', 'step3');
+      ie_open('h2');
+      itext('3. Request is made for matching screen');
+      ie_close('h2');
+      ie_open('p');
+      itext('The request is made for the new page but instead of pulling down a completely new package of elements from the server, Senna.js utilizes the cached resources that are redundant to both the pages.');
+      ie_close('p');
+      ie_close('article');
+      ie_open('article', null, null, 'id', 'step4');
+      ie_open('h2');
+      itext('4. Screen paints surfaces with new content');
+      ie_close('h2');
+      ie_open('p');
+      itext('Quickly, Senna.js finds what content is new to the requested page and paints only the new content to the screen\'s surfaces, preventing your site from wasting time and bandwidth to download redundant resources.');
+      ie_close('p');
+      ie_close('article');
+      ie_open('article', null, null, 'id', 'thateasy');
+      ie_open('h2');
+      itext('And voil\xE0! Your app is now blazing fast!');
+      ie_close('h2');
+      ie_open('p');
+      itext('Not only is Senna.js a powerful, easy-to-use tool, it also provides plenty of control so you can tailor it to your project. Keep reading through the docs to learn more about how you can leverage the power of Senna.js in your app.');
+      ie_close('p');
       ie_close('article');
       ie_open('input', null, null, 'type', 'hidden', 'value', opt_data.page.title);
       ie_close('input');
       ie_open('input', null, null, 'type', 'hidden', 'value', opt_data.site.title);
       ie_close('input');
     };
-    $templateAlias1(soy.$$assignDefaults({ content: param354 }, opt_data), null, opt_ijData);
+    $templateAlias1(soy.$$assignDefaults({ content: param445 }, opt_data), null, opt_ijData);
   }
   exports.render = $render;
   if (goog.DEBUG) {
-    $render.soyTemplateName = 'cmgPg.render';
+    $render.soyTemplateName = 'ljcqe.render';
   }
 
   exports.render.params = ["page", "site"];
@@ -12268,30 +12282,25 @@ goog.loadModule(function (exports) {
   return exports;
 });
 
-var cmgPg = function (_Component) {
-  _inherits(cmgPg, _Component);
+var ljcqe = function (_Component) {
+  _inherits(ljcqe, _Component);
 
-  function cmgPg() {
-    _classCallCheck(this, cmgPg);
+  function ljcqe() {
+    _classCallCheck(this, ljcqe);
 
-    return _possibleConstructorReturn(this, (cmgPg.__proto__ || Object.getPrototypeOf(cmgPg)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (ljcqe.__proto__ || Object.getPrototypeOf(ljcqe)).apply(this, arguments));
   }
 
-  return cmgPg;
+  return ljcqe;
 }(_metalComponent2.default);
 
-_metalSoy2.default.register(cmgPg, templates);
-exports.cmgPg = cmgPg;
+_metalSoy2.default.register(ljcqe, templates);
+exports.ljcqe = ljcqe;
 exports.templates = templates;
 exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 106 */,
-/* 107 */,
-/* 108 */,
-/* 109 */,
-/* 110 */,
 /* 111 */,
 /* 112 */,
 /* 113 */,
@@ -12304,7 +12313,13 @@ exports.default = templates;
 /* 120 */,
 /* 121 */,
 /* 122 */,
-/* 123 */
+/* 123 */,
+/* 124 */,
+/* 125 */,
+/* 126 */,
+/* 127 */,
+/* 128 */,
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12338,9 +12353,9 @@ __webpack_require__(16);
 
 __webpack_require__(17);
 
-var _uiFeedbackSoy = __webpack_require__(105);
+var _howdoesitworkSoy = __webpack_require__(110);
 
-var _uiFeedbackSoy2 = _interopRequireDefault(_uiFeedbackSoy);
+var _howdoesitworkSoy2 = _interopRequireDefault(_howdoesitworkSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12350,23 +12365,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var cmgPg = function (_Component) {
-  _inherits(cmgPg, _Component);
+var ljcqe = function (_Component) {
+  _inherits(ljcqe, _Component);
 
-  function cmgPg() {
-    _classCallCheck(this, cmgPg);
+  function ljcqe() {
+    _classCallCheck(this, ljcqe);
 
-    return _possibleConstructorReturn(this, (cmgPg.__proto__ || Object.getPrototypeOf(cmgPg)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (ljcqe.__proto__ || Object.getPrototypeOf(ljcqe)).apply(this, arguments));
   }
 
-  return cmgPg;
+  return ljcqe;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(cmgPg, _uiFeedbackSoy2.default);
+_metalSoy2.default.register(ljcqe, _howdoesitworkSoy2.default);
 
-exports.default = cmgPg;
+exports.default = ljcqe;
 
 /***/ })
-],[123]);
+],[129]);
