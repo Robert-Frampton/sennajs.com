@@ -10334,10 +10334,8 @@ li a:not([class]) {
   margin-left: 0; }
 
 .blog .container ul.checklist > li {
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: flex-start; }
+  display: block;
+  line-height: 24px; }
 
 .blog .container ul.checklist > li:before {
   color: #FF4040;
@@ -10347,7 +10345,7 @@ li a:not([class]) {
   font-size: 24px;
   left: 0;
   position: relative;
-  top: 0px;
+  top: 6px;
   width: 2rem;
   flex: 0 0 auto; }
 
@@ -10973,10 +10971,8 @@ li a:not([class]) {
   margin-left: 0; }
 
 .tutorial .container ul.checklist > li {
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: flex-start; }
+  display: block;
+  line-height: 24px; }
 
 .tutorial .container ul.checklist > li:before {
   color: #FF4040;
@@ -10986,7 +10982,7 @@ li a:not([class]) {
   font-size: 24px;
   left: 0;
   position: relative;
-  top: 0px;
+  top: 6px;
   width: 2rem;
   flex: 0 0 auto; }
 
@@ -11242,15 +11238,12 @@ li a:not([class]) {
   margin: 0; }
 
 .tutorial .container .content a {
-  -webkit-transition: none 0.3s ease-in-out;
-  -o-transition: none 0.3s ease-in-out;
-  transition: none 0.3s ease-in-out;
-  color: #FF4040;
-  text-decoration: none;
-  border-bottom-width: 0px; }
+  transition: color 0.333s, border-bottom-width 0.333s;
+  color: rgba(14, 20, 26, 0.8);
+  border-bottom-width: 1px; }
 
 .tutorial .container .content a:hover {
-  color: rgba(255, 64, 64, 0.6); }
+  color: #FF4040; }
 
 .tutorial .container .content .aside {
   margin: calc(2rem * 1.5) 0; }
@@ -11336,10 +11329,20 @@ li a:not([class]) {
     .api .entity-link {
       position: static; } }
 
-.api .version-dropdown .btn {
-  padding: 0 20px; }
-  .api .version-dropdown .btn span {
-    padding: 0 5px; }
+.api .version-dropdown {
+  z-index: 2000; }
+  .api .version-dropdown .btn {
+    padding: 0 20px; }
+    .api .version-dropdown .btn span {
+      padding: 0 5px;
+      vertical-align: text-top; }
+  .api .version-dropdown .dropdown-menu {
+    margin-left: -20px; }
+    .api .version-dropdown .dropdown-menu a {
+      border-width: 0;
+      font-size: 16px; }
+  .api .version-dropdown .toggler-collapsed {
+    display: block; }
 
 @media (max-width: 960px) {
   .api {
@@ -11349,9 +11352,7 @@ li a:not([class]) {
       height: auto; }
     .api .sidebar-offset {
       display: flex;
-      flex-direction: column; }
-      .api .sidebar-offset .topbar {
-        display: flex; } }
+      flex-direction: column; } }
 
 .entity-description, .entity-params, .entity-returns {
   margin: 20px 0; }
